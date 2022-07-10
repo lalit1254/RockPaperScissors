@@ -1,0 +1,91 @@
+/* .container-1 {
+    border: 1px solid red;
+    width: 75%;
+    margin :  10px;
+    text-align: center;
+    justify-content: space-around;
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px red;
+
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+}
+ .flex-box-rps{
+    display: flex;
+    border: 1px solid blueviolet;
+    padding: 8px;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  
+} */
+
+.container-1{
+
+    border: 1px solid red;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+
+.flex-box-container-1, .flex-box-rps{
+    display: flex;
+    border: 1px solid blueviolet;
+    padding: 8px;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+}
+
+.container-2,.container-3 .container-4{
+    border: 1px solid red;
+    width: 75%;
+    margin : 0 auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.flex-box-container-2,.flex-box-pick-color{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+    border: 1px solid blue;
+}
+.container-2 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-box-container-2 img{
+    border: 1px solid green;
+    padding: 10px;
+    box-shadow: 0px 10px 50px rgb(red, green, blue);
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px red;
+
+}
+
+
+
+
+
